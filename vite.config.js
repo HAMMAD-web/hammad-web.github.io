@@ -8,6 +8,7 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  base : "/hammad-web.github.io",
   server: {
     port: 3000,
     proxy: {
